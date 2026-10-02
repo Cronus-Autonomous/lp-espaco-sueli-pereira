@@ -1,0 +1,226 @@
+{
+  "welcome": "Bem-vindo à Clínica Veloura",
+  "clinic": {
+    "tagline": "Estética Avançada",
+    "tagline_2": "Atendimento Personalizado",
+    "whatsappDisplay": "+55 (11) 99999-9999",
+    "phone": "+55 11 3030-4040",
+    "mail": "atendimento@veloura.com.br",
+    "address": "Rua das Camélias, 120 — Jardins, São Paulo · SP",
+    "addressShort": "Jardins, São Paulo",
+    "description": "Clínica de estética avançada. Tratamentos personalizados, tecnologia de ponta e profissionais especializados.",
+    "hours": {
+      "weekdays": "Segunda à Sexta",
+      "saturday": "Sábado",
+      "sunday": "Domingo",
+      "closed": "Fechado"
+    },
+    "whatsappDefaultMessage": "Olá! Gostaria de agendar uma avaliação."
+  },
+  "menu": {
+    "home": "Início",
+    "sobre": "Sobre",
+    "tratamentos": "Tratamentos",
+    "resultados": "Resultados",
+    "especialistas": "Especialistas",
+    "depoimentos": "Depoimentos",
+    "contato": "Contato"
+  },
+  "hero": {
+    "title": "Realce sua beleza.",
+    "title2": "Revele sua melhor versão.",
+    "subtitle": "Tratamentos avançados, tecnologia e cuidado especializado para resultados naturais, seguros e personalizados.",
+    "profissionais": "Profissionais especializados",
+    "tecnologia": "Tecnologia avançada",
+    "protocolos": "Protocolos personalizados",
+    "ambiente": "Ambiente premium",
+    "resultados": "Resultados naturais"
+  },
+  "sobre": {
+    "title": "Uma nova experiência em estética",
+    "subtitle": "Ciência, beleza e cuidado em perfeita harmonia.",
+    "description": "A Veloura nasceu do desejo de unir rigor médico e sensibilidade estética. Cada protocolo é construído a partir da escuta, da avaliação detalhada e da tecnologia mais avançada — para que você alcance resultados naturais, com segurança e em um ambiente verdadeiramente acolhedor.",
+    "checklist_1": "Avaliação personalizada",
+    "checklist_2": "Protocolos individualizados",
+    "checklist_3": "Acompanhamento especializado",
+    "pele": "Sua pele",
+    "expertise": "Nossa expertise",
+    "confianca": "Sua confiança",
+    "nossa_clinica": "Conheça nossa clínica" 
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "schedule": "Agendar consulta",
+    "treatments": "Conhecer tratamentos",
+    "nossa_clinica": "Conheça nossa clínica",
+    "agendar_whatsapp": "Agendar pelo WhatsApp",
+    "more_info": "Mais informações",
+    "whatsapp_action": "Falar no WhatsApp",
+    "solicitar": "Solicitar atendimento"
+  },
+  "treatments": {
+    "nossos_tratamentos": "Nossos tratamentos",
+    "title": "Tratamentos pensados para revelar",
+    "title_2": "o melhor de você.",
+    "description": "Protocolos personalizados para cuidar da sua pele, valorizar sua beleza e entregar resultados naturais.",
+    "categories": {
+      "facial": "Facial",
+      "technology": "Tecnologia",
+      "body": "Corpo"
+    },
+    "rejuvenescimento": {
+      "name": "Rejuvenescimento Facial",
+      "description": "Uma abordagem avançada para suavizar sinais do tempo e devolver firmeza, luminosidade e naturalidade à pele."
+    },
+    "harmonizacao": {
+      "name": "Harmonização Facial",
+      "description": "Protocolos delicados para equilibrar traços e valorizar a sua beleza com resultado sutil e elegante."
+    },
+    "laser": {
+      "name": "Laser & Fototerapia",
+      "description": "Tecnologia de precisão para tratar manchas, textura e vascular com segurança e conforto."
+    },
+    "corporal": {
+      "name": "Tratamentos Corporais",
+      "description": "Cuidado completo para firmeza, contorno e bem-estar do corpo com protocolos personalizados."
+    },
+    "featured": "Tratamento em destaque",
+    "featrured_description": "Uma abordagem avançada para melhorar a aparência da pele com naturalidade e precisão. Combinamos tecnologia de última geração e protocolos personalizados para suavizar sinais do tempo, devolver firmeza e luminosidade — respeitando a sua expressão.",
+    "benefits": {
+      "b1": "Estímulo natural de colágeno e firmeza",
+      "b2": "Melhora da textura e luminosidade da pele",
+      "b3": "Resultados naturais e personalizados"
+    }
+  },
+  "doctors": {
+    "title": "Experiência que cuida de",
+    "title_2": "cada detalhe.",
+    "description": "Uma equipe de especialistas dedicada a entender suas necessidades e conduzir cada etapa com precisão e cuidado.",
+    "titles": {
+      "dermatologist": "Dermatologista",
+      "specialist": "Especialista em Estética"
+    },
+    "draAishwarya": {
+      "specialty": "Estética avançada e laser",
+      "experience": "12 anos de experiência"
+    },
+    "draMeera": {
+      "specialty": "Rejuvenescimento facial",
+      "experience": "9 anos de experiência"
+    },
+    "draRhea": {
+      "specialty": "Harmonização e bioestimuladores",
+      "experience": "11 anos de experiência"
+    }
+  },
+  "results": {
+    "eyebrow": "Resultados reais",
+    "title": "Resultados que",
+    "title_2": "falam por si.",
+    "description": "Veja transformações reais e descubra o impacto de um tratamento pensado para você.",
+    "ver_todos": "Ver todos os resultados",
+    "antes": "Antes",
+    "depois": "Depois",
+    "aviso": "* Imagens ilustrativas. Resultados variam conforme cada paciente e protocolo.",
+    "r1": {
+      "treatment": "Rejuvenescimento Facial",
+      "description": "Pele mais luminosa e uniforme após protocolo personalizado.",
+      "timeframe": "8 semanas"
+    },
+    "r2": {
+      "treatment": "Tratamento de Manchas",
+      "description": "Redução visível de manchas com tecnologia de laser.",
+      "timeframe": "6 semanas"
+    }
+  },
+  "testimonials": {
+    "title": "Experiências reais",
+    "title_2": "Quem vive a experiência,",
+    "title_3": "recomenda.",
+    "source": "Avaliações no Google",
+    "more_source": " Ver todas as avaliações no Google",
+    "t1": {
+      "text": "Atendimento impecável do início ao fim. Saí da consulta me sentindo ouvida e o resultado superou minhas expectativas, sempre com naturalidade.",
+      "date": "Março, 2026"
+    },
+    "t2": {
+      "text": "Profissionais extremamente cuidadosos. O protocolo foi explicado com clareza e respeitou o tempo da minha pele. Recomendo de olhos fechados.",
+      "date": "Fevereiro, 2026"
+    },
+    "t3": {
+      "text": "Ambiente sofisticado e acolhedor. Senti diferença já nas primeiras semanas. É um cuidado que transmite confiança em cada etapa.",
+      "date": "Janeiro, 2026"
+    }
+  },
+  "journey": {
+    "title": "Sua jornada",
+    "title_2": "Sua jornada começa",
+    "title_3": "aqui.",
+    "step1": {
+      "title": "Consulta",
+      "description": "Escuta atenta e avaliação detalhada das suas necessidades."
+    },
+    "step2": {
+      "title": "Plano personalizado",
+      "description": "Protocolo desenhado exclusivamente para você."
+    },
+    "step3": {
+      "title": "Tratamento",
+      "description": "Aplicação com tecnologia e cuidado em cada etapa."
+    },
+    "step4": {
+      "title": "Acompanhamento",
+      "description": "Suporte contínuo para garantir sua segurança e conforto."
+    },
+    "step5": {
+      "title": "Resultados",
+      "description": "Evolução natural e visível, respeitando sua expressão."
+    }
+  },
+  "social_proof": {
+    "patients": "Pacientes atendidos",
+    "years": "De experiência",
+    "reviews": "Avaliações no Google",
+    "specialists": "Especialistas"
+  },
+  "booking": {
+    "title": "Contato",
+    "title2": "Agende seu",
+    "title3": "atendimento.",
+    "subtitle": "Estamos prontos para entender suas necessidades e indicar o tratamento mais adequado para você.",
+    "name": "Nome",
+    "hours": "Horário de atendimento",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "submit": "Enviar",
+    "address": "Endereço",
+    "success_message": "Obrigado! Sua mensagem foi enviada com sucesso. Entraremos em contato em breve.",
+    "error_message": "Ops! Algo deu errado. Por favor, tente novamente mais tarde.",
+    "outro": "Outro",
+    "não_sei": "Não sei",
+    "select_treatment": "Selecione",
+    "submit_success": "Solicitação recebida!",
+    "treatment": "Tratamento de interesse",
+    "whatsapp": "WhatsApp",
+    "prefere_falar": "Prefere falar diretamente conosco?",
+    "conte": "Conte-nos o que você busca",
+    "seu_nome": "Informe seu nome.",
+    "whatsapp_error": "Informe seu WhatsApp.",
+    "whatsapp_invalid": "Número inválido.",
+    "email_invalid": "E-mail inválido."
+  },
+  "location": {
+    "title": "Onde estamos",
+    "subtitle": "Venha nos visitar.",
+    "getting_here": "Como chegar"
+  },
+  "footer": {
+    "title": "Estética avançada, tecnologia e cuidado especializado para resultados naturais e seguros.",
+    "navegação": "Navegación",
+    "direitos": "Todos os direitos reservados. CNPJ: 00.000.000/0000-00",
+    "política_privacidade": "Política de Privacidade",
+    "termos_uso": "Termos de Uso"
+  }
+}
