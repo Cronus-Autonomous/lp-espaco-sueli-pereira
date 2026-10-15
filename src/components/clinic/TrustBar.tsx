@@ -1,11 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Sparkles, Stethoscope, ClipboardCheck, Gem, HeartHandshake } from "lucide-react";
+import { Stethoscope, ClipboardCheck, Gem, HeartHandshake } from "lucide-react";
 import { useReducedMotion } from "@/lib/useReducedMotion";
 import { t } from "i18next";
 
 const items = [
-  { icon: Sparkles, label: t("hero.tecnologia") },
   { icon: Stethoscope, label: t("hero.profissionais") },
   { icon: ClipboardCheck, label: t("hero.protocolos") },
   { icon: Gem, label: t("hero.ambiente") },

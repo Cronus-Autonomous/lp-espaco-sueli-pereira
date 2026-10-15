@@ -1,10 +1,10 @@
 import beforeFacial from "@/assets/before-facial.jpg";
 import beforeFacial2 from "@/assets/before-facial2.jpg";
-import heroimg from "@/assets/hero.png";
+import heroimg from "@/assets/Sueli.jpg";
 import i18next from "i18next";
 
 export const clinic = {
-  name: "Veloura",
+  name: "Espaco Sueli Pereira",
   tagline: i18next.t("clinic.tagline"),
   whatsappNumber: "554396169287", // Número internacional para WhatsApp sem caracteres especiais
   whatsappDisplay: i18next.t("clinic.whatsappDisplay"),

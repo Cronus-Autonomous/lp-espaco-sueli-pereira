@@ -1,8 +1,8 @@
 {
   "welcome": "Bem-vindo à Clínica Veloura",
   "clinic": {
-    "tagline": "Estética Avançada",
-    "tagline_2": "Atendimento Personalizado",
+    "tagline": "Liberação Miofascial",
+    "tagline_2": "Estética Avançada",
     "whatsappDisplay": "+55 (43) 9616-9287",
     "phone": "+55 43 9616-9287",
     "mail": "atendimento@veloura.com.br",
@@ -27,11 +27,11 @@
     "contato": "Contato"
   },
   "hero": {
-    "title": "Espaço",
-    "title2": "Sueli Pereira",
+    "title": "Onde estética e fisioterapia se unem para acolher e cuidar de você.",
+    "title2": "",
     "subtitle": "Tratamentos avançados, tecnologia e cuidado especializado para resultados naturais, seguros e personalizados.",
     "profissionais": "Profissionais especializados",
-    "tecnologia": "Tecnologia avançada",
+    "tecnologia": "",
     "protocolos": "Protocolos personalizados",
     "ambiente": "Ambiente premium",
     "resultados": "Resultados naturais"
@@ -138,7 +138,7 @@
     "title": "Experiências reais",
     "title_2": "Quem vive a experiência,",
     "title_3": "recomenda.",
-    "source": "Avaliações no Google",
+    "source": "",
     "more_source": " Ver todas as avaliações no Google",
     "t1": {
       "text": "Atendimento impecável do início ao fim. Saí da consulta me sentindo ouvida e o resultado superou minhas expectativas, sempre com naturalidade.",
@@ -181,7 +181,7 @@
   "social_proof": {
     "patients": "Pacientes atendidos",
     "years": "De experiência",
-    "reviews": "Avaliações no Google",
+    "reviews": "avaliação de estrelas no google",
     "specialists": "Especialistas"
   },
   "booking": {

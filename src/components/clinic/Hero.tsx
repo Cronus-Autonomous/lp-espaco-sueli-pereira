@@ -101,7 +101,6 @@ export const Hero: React.FC = () => {
             />
           </div>
           <div className="absolute -bottom-5 -left-5 hidden md:block bg-[#FFFDFC] rounded-2xl shadow-[0_20px_50px_-20px_rgba(48,36,43,0.25)] px-6 py-4 border border-[#E8DED4]">
-            <p className="font-serif text-2xl text-[#642C4B]">4.9 ★</p>
             <p className="text-[11px] uppercase tracking-[0.18em] text-[#5c4f54] mt-1">
               {t("testimonials.source")}
             </p>
