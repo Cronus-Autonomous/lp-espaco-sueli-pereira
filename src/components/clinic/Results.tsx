@@ -7,12 +7,11 @@ import { useReducedMotion } from "@/lib/useReducedMotion";
 import { t } from "i18next";
 
 const BeforeAfterSlider: React.FC<{
-  before: string;
   after: string;
   treatment: string;
   description: string;
   timeframe: string;
-}> = ({ before, after, treatment, description, timeframe }) => {
+}> = ({ after, treatment, description, timeframe }) => {
   const [pos, setPos] = useState(50);
   const [width, setWidth] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
@@ -55,7 +54,7 @@ const BeforeAfterSlider: React.FC<{
         onPointerDown={onDown}
         onPointerMove={onMove}
         onPointerUp={onUp}
-        className="relative aspect-square w-full overflow-hidden rounded-2xl bg-[#F3E6DF] cursor-ew-resize select-none touch-none"
+        className="relative aspect-square w-full overflow-hidden rounded-2xl bg-[#F3E6DF] select-none touch-none"
       >
         <img
           src={after}
@@ -70,24 +69,9 @@ const BeforeAfterSlider: React.FC<{
           className="absolute inset-0 overflow-hidden pointer-events-none"
           style={{ width: `${pos}%` }}
         >
-          <img
-            src={before}
-            alt={`${treatment} — ${t("results.antes")}`}
-            className="absolute inset-0 h-full object-cover"
-            style={{ width: `${width}px`, maxWidth: "none" }}
-            loading="lazy"
-          />
           <span className="absolute top-3 left-3 z-20 text-[10px] uppercase tracking-[0.18em] bg-[#30242B]/70 text-white px-2 py-1 rounded-full">
             {t("results.antes")}
           </span>
-        </div>
-        <div
-          className="absolute top-0 bottom-0 w-px bg-white pointer-events-none z-30"
-          style={{ left: `${pos}%` }}
-        >
-          <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-9 h-9 rounded-full bg-white shadow-md flex items-center justify-center">
-            <MoveHorizontal className="w-4 h-4 text-[#642C4B]" />
-          </div>
         </div>
       </div>
       <div className="mt-4 px-1">
@@ -137,11 +121,6 @@ export const Results: React.FC = () => {
             <BeforeAfterSlider key={r.id} {...r} />
           ))}
         </motion.div>
-
-        <p className="mt-6 text-xs text-[#8a7d83] font-sans">
-          {t("results.aviso")}
-        </p>
-
         <a
           href="#contato"
           className="md:hidden mt-8 inline-flex items-center gap-2 text-sm font-sans font-medium text-[#642C4B]"

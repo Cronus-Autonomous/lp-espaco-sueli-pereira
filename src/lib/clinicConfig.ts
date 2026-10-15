@@ -1,6 +1,3 @@
-import beforeFacial from "@/assets/before-facial.jpg";
-import beforeFacial2 from "@/assets/before-facial2.jpg";
-import heroimg from "@/assets/Sueli.jpg";
 import i18next from "i18next";
 
 export const clinic = {
@@ -173,33 +170,51 @@ export const doctors: Doctor[] = [
   },
 ];
 
+const resultsValues = {
+    "eyebrow": "Resultados reais",
+    "title": "Resultados que",
+    "title_2": "falam por si.",
+    "description": "Veja transformações reais e descubra o impacto de um tratamento pensado para você.",
+    "ver_todos": "Ver todos os resultados",
+    "antes": "Antes",
+    "depois": "Depois",
+    "aviso": "",
+    "r1": {
+      "treatment": "Microagulhamento Facial",
+      "description": "Pele mais luminosa e uniforme após protocolo personalizado.",
+      "timeframe": ""
+    },
+    "r2": {
+      "treatment": "Limpeza de pele",
+      "description": "Redução visível de manchas com tecnologia de laser.",
+      "timeframe": ""
+    }
+  }
+
 export type ResultPair = {
   id: string;
   treatment: string;
   description: string;
   timeframe: string;
-  before: string;
   after: string;
 };
 
 export const results: ResultPair[] = [
   {
     id: "r1",
-    treatment: i18next.t("results.r1.treatment"),
-    description: i18next.t("results.r1.description"),
-    timeframe: i18next.t("results.r1.timeframe"),
-    before: beforeFacial,
+    treatment: resultsValues.r1.treatment,
+    description: resultsValues.r1.description,
+    timeframe: resultsValues.r1.timeframe,
     after:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/d5c8c82f6_generated_3b02c0ef.png",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Microagulhamento_f%C3%A1cil.jpg",
   },
   {
     id: "r2",
-    treatment: i18next.t("results.r2.treatment"),
-    description: i18next.t("results.r2.description"),
-    timeframe: i18next.t("results.r2.timeframe"),
-    before: beforeFacial2,
+    treatment: resultsValues.r2.treatment,
+    description: resultsValues.r2.description,
+    timeframe: resultsValues.r2.timeframe,
     after:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/ff2da31df_generated_ceb9e980.png",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Limpeza_de_pele2.jpg",
   },
 ];
 
@@ -261,7 +276,7 @@ export const testimonials: TestimonialData = {
   ],
 };
 
-export const heroImage = heroimg;
+export const heroImage = 'https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg';
 
 export const aboutImage =
   "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/6142bc0bf_generated_ef5f6ed8.png";

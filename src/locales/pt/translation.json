@@ -114,26 +114,7 @@
       "experience": "11 anos de experiência"
     }
   },
-  "results": {
-    "eyebrow": "Resultados reais",
-    "title": "Resultados que",
-    "title_2": "falam por si.",
-    "description": "Veja transformações reais e descubra o impacto de um tratamento pensado para você.",
-    "ver_todos": "Ver todos os resultados",
-    "antes": "Antes",
-    "depois": "Depois",
-    "aviso": "",
-    "r1": {
-      "treatment": "Rejuvenescimento Facial",
-      "description": "Pele mais luminosa e uniforme após protocolo personalizado.",
-      "timeframe": ""
-    },
-    "r2": {
-      "treatment": "Tratamento de Manchas",
-      "description": "Redução visível de manchas com tecnologia de laser.",
-      "timeframe": ""
-    }
-  },
+  
   "testimonials": {
     "title": "Experiências reais",
     "title_2": "Quem vive a experiência,",
