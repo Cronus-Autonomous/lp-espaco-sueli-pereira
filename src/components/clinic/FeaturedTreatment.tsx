@@ -62,7 +62,7 @@ export const FeaturedTreatment: React.FC = () => {
             ))}
           </ul>
           <a
-            href={whatsappLink("Olá! Gostaria de saber mais sobre o Rejuvenescimento Facial.")}
+            href={whatsappLink("Olá! Gostaria de saber mais sobre a Liberação Miofascial Restaurativa.")}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-9 inline-flex items-center gap-2 bg-[#642C4B] hover:bg-[#4A1F36] text-[#FFFDFC] text-sm font-medium rounded-full px-7 py-4 transition-all duration-300 hover:shadow-[0_14px_32px_-12px_rgba(100,44,75,0.6)]"

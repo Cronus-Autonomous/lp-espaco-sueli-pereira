@@ -22,7 +22,7 @@
     "sobre": "Sobre",
     "tratamentos": "Tratamentos",
     "resultados": "Resultados",
-    "especialistas": "Especialistas",
+    "especialistas": "Especialista",
     "depoimentos": "Depoimentos",
     "contato": "Contato"
   },
@@ -37,16 +37,16 @@
     "resultados": "Resultados naturais"
   },
   "sobre": {
-    "title": "Uma nova experiência em estética",
-    "subtitle": "Ciência, beleza e cuidado em perfeita harmonia.",
-    "description": "A Veloura nasceu do desejo de unir rigor médico e sensibilidade estética. Cada protocolo é construído a partir da escuta, da avaliação detalhada e da tecnologia mais avançada — para que você alcance resultados naturais, com segurança e em um ambiente verdadeiramente acolhedor.",
+    "title": "Uma nova experiência em cuidados",
+    "subtitle": "Cuidados que une estética, movimento e bem-estar.",
+    "description": "O Espaço Sueli Pereira nasceu do desejo de cuidar das pessoas de forma integral, unindo estética e fisioterapia. cada atendimento começa com escuta e avaliação individualizada e humanizada, para oferecer um cuidado acolhedor e personalizado, voltado à saúde da pele, ao bem-estar e alívio das dores.Com tratamentos faciais e corporais, liberação miofascial restaurativa e pilates, o espaço oferece um ambiente de confiança, cuidado e renovação.Seu bem-estar é o centro de cada cuidado",
     "checklist_1": "Avaliação personalizada",
     "checklist_2": "Protocolos individualizados",
     "checklist_3": "Acompanhamento especializado",
-    "pele": "Sua pele",
-    "expertise": "Nossa expertise",
-    "confianca": "Sua confiança",
-    "nossa_clinica": "Conheça nossa clínica" 
+    "pele": "Seu corpo.",
+    "expertise": " Nosso cuidado.",
+    "confianca": "Seu bem-estar.",
+    "nossa_clinica": "Conheça o espaço" 
   },
   "buttons": {
     "submit": "Enviar",
@@ -61,8 +61,8 @@
   },
   "treatments": {
     "nossos_tratamentos": "Nossos tratamentos",
-    "title": "Tratamentos pensados para revelar",
-    "title_2": "o melhor de você.",
+    "title": "Tratamentos pensados para restaurar seu corpo.",
+    "title_2": "renovar a sua pele e cuidar de você por inteiro.",
     "description": "Protocolos personalizados para cuidar da sua pele, valorizar sua beleza e entregar resultados naturais.",
     "categories": {
       "facial": "Facial",
@@ -70,8 +70,8 @@
       "body": "Corpo"
     },
     "rejuvenescimento": {
-      "name": "Rejuvenescimento Facial",
-      "description": "Uma abordagem avançada para suavizar sinais do tempo e devolver firmeza, luminosidade e naturalidade à pele."
+      "name": "Liberação Miofascial Restaurativa:",
+      "description": "Uma abordagem terapêutica com toque profundo e avaliação individualizada da postura e do movimento, voltada ao alívio das dores, recuperação de tensões e à melhora da mobilidade."
     },
     "harmonizacao": {
       "name": "Harmonização Facial",
@@ -88,22 +88,22 @@
     "featured": "Tratamento em destaque",
     "featrured_description": "Uma abordagem avançada para melhorar a aparência da pele com naturalidade e precisão. Combinamos tecnologia de última geração e protocolos personalizados para suavizar sinais do tempo, devolver firmeza e luminosidade — respeitando a sua expressão.",
     "benefits": {
-      "b1": "Estímulo natural de colágeno e firmeza",
-      "b2": "Melhora da textura e luminosidade da pele",
-      "b3": "Resultados naturais e personalizados"
+      "b1": "Alívio de dores e tensões.",
+      "b2": "Mais liberdade de movimento.",
+      "b3": "Avaliação individualizada."
     }
   },
   "doctors": {
     "title": "Experiência que cuida de",
     "title_2": "cada detalhe.",
-    "description": "Uma equipe de especialistas dedicada a entender suas necessidades e conduzir cada etapa com precisão e cuidado.",
+    "description": "",
     "titles": {
-      "dermatologist": "Dermatologista",
+      "dermatologist": "Fisioterapeuta",
       "specialist": "Especialista em Estética"
     },
     "draAishwarya": {
-      "specialty": "Estética avançada e laser",
-      "experience": "12 anos de experiência"
+      "specialty": "fisioterapiae cuidado para o seu corpo",
+      "experience": "17 anos de experiência"
     },
     "draMeera": {
       "specialty": "Rejuvenescimento facial",
@@ -122,16 +122,16 @@
     "ver_todos": "Ver todos os resultados",
     "antes": "Antes",
     "depois": "Depois",
-    "aviso": "* Imagens ilustrativas. Resultados variam conforme cada paciente e protocolo.",
+    "aviso": "",
     "r1": {
       "treatment": "Rejuvenescimento Facial",
       "description": "Pele mais luminosa e uniforme após protocolo personalizado.",
-      "timeframe": "8 semanas"
+      "timeframe": ""
     },
     "r2": {
       "treatment": "Tratamento de Manchas",
       "description": "Redução visível de manchas com tecnologia de laser.",
-      "timeframe": "6 semanas"
+      "timeframe": ""
     }
   },
   "testimonials": {
@@ -167,7 +167,7 @@
     },
     "step3": {
       "title": "Tratamento",
-      "description": "Aplicação com tecnologia e cuidado em cada etapa."
+      "description": "Excelência e cuidado em cada etapa"
     },
     "step4": {
       "title": "Acompanhamento",
@@ -182,7 +182,7 @@
     "patients": "Pacientes atendidos",
     "years": "De experiência",
     "reviews": "avaliação de estrelas no google",
-    "specialists": "Especialistas"
+    "specialists": ""
   },
   "booking": {
     "title": "Contato",
@@ -218,7 +218,7 @@
   },
   "footer": {
     "title": "Estética avançada, tecnologia e cuidado especializado para resultados naturais e seguros.",
-    "navegação": "Navegación",
+    "navegação": "Navegação",
     "direitos": "Todos os direitos reservados. CNPJ: 00.000.000/0000-00",
     "política_privacidade": "Política de Privacidade",
     "termos_uso": "Termos de Uso"

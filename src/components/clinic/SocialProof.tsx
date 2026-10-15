@@ -5,10 +5,9 @@ import { t } from "i18next";
 
 // NOTE: Replace these numbers with real clinic data when available.
 const stats = [
-  { value: 14000, suffix: "+", label: t("social_proof.patients") },
+  { value: 28000, suffix: "+", label: t("social_proof.patients") },
   { value: +17, suffix: " anos", label: t("social_proof.years") },
   { value: 5, suffix: "", label: t("social_proof.reviews") },
-  { value: 1, suffix: "", label: t("social_proof.specialists") },
 ];
 
 const Counter: React.FC<{ value: number; suffix: string; reduce: boolean }> = ({
