@@ -29,7 +29,7 @@ export const About: React.FC = () => {
           <div className="aspect-[4/3] rounded-[2rem] overflow-hidden bg-[#F3E6DF]">
             <img
               src={aboutImage}
-              alt="Interior sofisticado da clínica Veloura"
+              alt="Interior sofisticado do Espaço Sueli Pereira"
               className="w-full h-full object-cover"
               loading="lazy"
             />

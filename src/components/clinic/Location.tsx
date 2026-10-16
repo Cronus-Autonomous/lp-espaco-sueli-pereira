@@ -79,7 +79,7 @@ export const Location: React.FC = () => {
           className="rounded-3xl overflow-hidden border border-[#E8DED4] min-h-[360px]"
         >
           <iframe
-            title="Mapa da clínica Veloura"
+            title="Mapa do Espaço Sueli Pereira"
             src={clinic.mapsEmbed}
             className="w-full h-full min-h-[360px]"
             loading="lazy"
