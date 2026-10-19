@@ -43,7 +43,7 @@ export const FeaturedTreatment: React.FC = () => {
             {t("treatments.featured")}
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.12] text-[#30242B]">
-            {t("treatments.rejuvenescimento.name")}
+            {t("Liberação Miofascial Restaurativa")}
           </h2>
           <p className="mt-6 text-base md:text-lg leading-relaxed text-[#5c4f54] font-sans">
             {t("treatments.featrured_description")}

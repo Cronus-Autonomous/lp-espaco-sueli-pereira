@@ -92,44 +92,152 @@ export type Treatment = {
   image: string;
 };
 
+// export const treatments: Treatment[] = [
+//   {
+//     id: "Limpeza de pele",
+//     name: i18next.t("treatments.Limpeza de pele.name"),
+//     category: i18next.t("treatments.categories.facial"),
+//     description: i18next.t(
+//       "treatments.rejuvenescimento.description"
+//     ),
+//     image:
+//       "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+//   },
+//   {
+//     id: "Microagulhamento facial",
+//     name: i18next.t("treatments.harmonizacao.name"),
+//     category: i18next.t("treatments.categories.facial"),
+//     description: i18next.t(
+//       "treatments.harmonizacao.description"
+//     ),
+//     image:
+//       "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+//   },
+//   {
+//     id: "Peeling facial",
+//     name: i18next.t("treatments.laser.name"),
+//     category: i18next.t("treatments.categories.technology"),
+//     description: i18next.t("treatments.laser.description"),
+//     image:
+//       "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+//   },
+//   {
+//     id: "Massagem Detox facial",
+//     name: i18next.t("treatments.corporal.name"),
+//     category: i18next.t("treatments.categories.body"),
+//     description: i18next.t("treatments.corporal.description"),
+//     image:
+//       "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+//   },
+//   {
+//     id: "Pós-Operatório de cirurgia plástica",
+//     name: i18next.t("treatments.corporal.name"),
+//     category: i18next.t("treatments.categories.body"),
+//     description: i18next.t("treatments.corporal.description"),
+//     image:
+//       "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+//   },
+//   {
+//     id: "Drenagem Linfática",
+//     name: i18next.t("treatments.corporal.name"),
+//     category: i18next.t("treatments.categories.body"),
+//     description: i18next.t("treatments.corporal.description"),
+//     image:
+//       "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+//   },
+//   {
+//     id: "Massagem Detox Corporal",
+//     name: i18next.t("treatments.corporal.name"),
+//     category: i18next.t("treatments.categories.body"),
+//     description: i18next.t("treatments.corporal.description"),
+//     image:
+//       "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+//   },
+//   {
+//     id: "Pilates",
+//     name: i18next.t("treatments.corporal.name"),
+//     category: i18next.t("treatments.categories.body"),
+//     description: i18next.t("treatments.corporal.description"),
+//     image:
+//       "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+//   },
+// ];
+
 export const treatments: Treatment[] = [
   {
-    id: "rejuvenescimento",
-    name: i18next.t("treatments.rejuvenescimento.name"),
-    category: i18next.t("treatments.categories.facial"),
-    description: i18next.t(
-      "treatments.rejuvenescimento.description"
-    ),
+    id: "Limpeza de pele",
+    name: "Limpeza de pele",
+    category: "Facial",
+    description:
+      "Limpeza profunda para remover impurezas, desobstruir os poros e melhorar a aparência da pele.",
     image:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/ed82589ca_generated_38596ff6.png",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
   },
   {
-    id: "harmonizacao",
-    name: i18next.t("treatments.harmonizacao.name"),
-    category: i18next.t("treatments.categories.facial"),
-    description: i18next.t(
-      "treatments.harmonizacao.description"
-    ),
+    id: "Microagulhamento facial",
+    name: "Microagulhamento facial",
+    category: "Facial",
+    description:
+      "Procedimento estético que estimula a renovação da pele e auxilia na melhora da textura e aparência.",
     image:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/33f25b361_generated_7b8b7ca2.png",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
   },
   {
-    id: "laser",
-    name: i18next.t("treatments.laser.name"),
-    category: i18next.t("treatments.categories.technology"),
-    description: i18next.t("treatments.laser.description"),
+    id: "Peeling facial",
+    name: "Peeling facial",
+    category: "Facial",
+    description:
+      "Tratamento que promove a renovação da pele, contribuindo para uma textura mais uniforme.",
     image:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/2887bd121_generated_b3a00f8f.png",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
   },
   {
-    id: "corporal",
-    name: i18next.t("treatments.corporal.name"),
-    category: i18next.t("treatments.categories.body"),
-    description: i18next.t("treatments.corporal.description"),
+    id: "Massagem Detox facial",
+    name: "Massagem Detox facial",
+    category: "Facial",
+    description:
+      "Massagem facial voltada ao relaxamento e à melhora da aparência da pele.",
     image:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/7a585ecf0_generated_e9080043.png",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+  },
+  {
+    id: "Pós-Operatório de cirurgia plástica",
+    name: "Pós-operatório de cirurgia plástica",
+    category: "Corporal",
+    description:
+      "Acompanhamento fisioterapêutico individualizado para auxiliar na recuperação após cirurgia plástica.",
+    image:
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+  },
+  {
+    id: "Drenagem Linfática",
+    name: "Drenagem linfática",
+    category: "Corporal",
+    description:
+      "Técnica manual que auxilia o fluxo linfático e pode contribuir para a redução de inchaços, conforme indicação profissional.",
+    image:
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+  },
+  {
+    id: "Massagem Detox Corporal",
+    name: "Massagem Detox corporal",
+    category: "Corporal",
+    description:
+      "Massagem corporal voltada ao relaxamento e ao bem-estar.",
+    image:
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+  },
+  {
+    id: "Pilates",
+    name: "Pilates",
+    category: "Corporal",
+    description:
+      "Prática de exercícios que trabalha força, flexibilidade, equilíbrio e consciência corporal, com orientação profissional.",
+    image:
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
   },
 ];
+
 
 export type Doctor = {
   id: string;
@@ -142,31 +250,13 @@ export type Doctor = {
 
 export const doctors: Doctor[] = [
   {
-    id: "dra-aishwarya",
-    name: "Dra. Aishwara Vidal",
+    id: "Sueli pereira",
+    name: "Sueli pereira",
     title: i18next.t("doctors.titles.dermatologist"),
-    specialty: i18next.t("doctors.draAishwarya.specialty"),
-    experience: i18next.t("doctors.draAishwarya.experience"),
+    specialty: i18next.t("Fisioterapia e cuidado para o seu corpo"),
+    experience: i18next.t("17 anos de experiência"),
     image:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/9438ddce6_generated_ac3d2d88.png",
-  },
-  {
-    id: "dra-meera",
-    name: "Dra. Marina Nunes",
-    title: i18next.t("doctors.titles.dermatologist"),
-    specialty: i18next.t("doctors.draMeera.specialty"),
-    experience: i18next.t("doctors.draMeera.experience"),
-    image:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/9512a6b85_generated_17f3bc1d.png",
-  },
-  {
-    id: "dra-rhea",
-    name: "Dra. Helena Castro",
-    title: i18next.t("doctors.titles.specialist"),
-    specialty: i18next.t("doctors.draRhea.specialty"),
-    experience: i18next.t("doctors.draRhea.experience"),
-    image:
-      "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/97cff2f89_generated_7c5d24c5.png",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
   },
 ];
 
@@ -206,7 +296,7 @@ export const results: ResultPair[] = [
     description: resultsValues.r1.description,
     timeframe: resultsValues.r1.timeframe,
     after:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Microagulhamento_f%C3%A1cil.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
   },
   {
     id: "r2",
@@ -214,7 +304,7 @@ export const results: ResultPair[] = [
     description: resultsValues.r2.description,
     timeframe: resultsValues.r2.timeframe,
     after:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Limpeza_de_pele2.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
   },
 ];
 
@@ -279,7 +369,7 @@ export const testimonials: TestimonialData = {
 export const heroImage = 'https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg';
 
 export const aboutImage =
-  "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/6142bc0bf_generated_ef5f6ed8.png";
+  "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg";
 
 export const featuredImage =
-  "https://media.base44.com/images/public/6a90a49240900e44c5b342f4/940f902e5_generated_02fadd40.png";
+  "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg";
