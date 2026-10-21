@@ -1,7 +1,7 @@
 import React from "react";
 import { Instagram, Facebook } from "lucide-react";
 import { clinic, navLinks, treatments } from "@/lib/clinicConfig";
-import { WhatsAppIcon } from "./WhatsAppIcon";
+import { InstagramIcon, WhatsAppIcon } from "./WhatsAppIcon";
 import { t } from "i18next";
 
 const TikTokIcon: React.FC<{ className?: string }> = ({ className }) => (
@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="mt-6 flex gap-3">
               <a href={clinic.social.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#642C4B] flex items-center justify-center hover:bg-[#642C4B] transition-colors">
-                <Instagram className="w-4 h-4" strokeWidth={1.5} />
+                <InstagramIcon className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -83,6 +83,9 @@ export const Footer: React.FC = () => {
           <p className="text-[12px] text-[#F3E6DF]/50 font-sans">
             © 2026 {clinic.name}. {t("footer.direitos")}
           </p>
+          <a href="" className="hover:text-sand transition-colors">
+            Política de Privacidade
+          </a>
         </div>
       </div>
     </footer>

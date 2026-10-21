@@ -50,7 +50,6 @@ export const Header: React.FC = () => {
           )}
           <span className="whitespace-nowrap">
             {clinic.name}
-            <span className="text-[#c99f96]">.</span>
           </span>
         </a>
 

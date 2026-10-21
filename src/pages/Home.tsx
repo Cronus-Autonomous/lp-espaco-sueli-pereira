@@ -20,16 +20,15 @@ import { t } from "i18next";
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
-  name: `${clinic.name} · ${t("clinic.tagline")}`,
+  name: "Espaço Sueli Pereira",
   description:
-    "Clínica de estética avançada. Tratamentos personalizados, tecnologia de ponta e profissionais especializados.",
+    "Clínica de estética avançada e liberação miofascial.",
   telephone: clinic.phone,
-  email: clinic.email,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Rua das Camélias, 120 — Jardins",
-    addressLocality: "São Paulo",
-    addressRegion: "SP",
+    streetAddress: "Rua Meyer, 120 - Jardim Higienópolis",
+    addressLocality: "Londrina",
+    addressRegion: "PR",
     addressCountry: "BR",
   },
   aggregateRating: {
