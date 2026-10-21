@@ -7,7 +7,7 @@ import { t } from "i18next";
 const stats = [
   { value: 28000, suffix: "+", label: t("social_proof.patients") },
   { value: 17, suffix: " anos", label: t("social_proof.years") },
-  { value: 5, suffix: "", label: t("social_proof.reviews") },
+  { value: 5, suffix: " estrelas", label: t("social_proof.reviews") },
 ];
 
 const Counter: React.FC<{

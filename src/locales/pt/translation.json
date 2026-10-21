@@ -1,8 +1,6 @@
 {
   "welcome": "Bem-vindo à Clínica Veloura",
   "clinic": {
-    "tagline": "Liberação Miofascial",
-    "tagline_2": "Estética Avançada",
     "whatsappDisplay": "+55 (43) 9616-9287",
     "phone": "+55 43 9616-9287",
     "mail": "atendimento@veloura.com.br",
@@ -15,7 +13,7 @@
       "sunday": "Domingo",
       "closed": "Fechado"
     },
-    "whatsappDefaultMessage": "Olá! Gostaria de agendar uma avaliação."
+    "whatsappDefaultMessage": "Olá! Vim do site e gostaria de agendar uma avaliação."
   },
   "menu": {
     "home": "Início",
@@ -30,8 +28,7 @@
     "title": "Onde estética e fisioterapia se unem para acolher e cuidar de você.",
     "title2": "",
     "subtitle": "Tratamentos avançados, tecnologia e cuidado especializado para resultados naturais, seguros e personalizados.",
-    "profissionais": "Profissionais especializados",
-    "tecnologia": "",
+    "profissionais": "Profissional especializada",
     "protocolos": "Protocolos personalizados",
     "ambiente": "Ambiente premium",
     "resultados": "Resultados naturais"
@@ -46,7 +43,7 @@
     "pele": "Seu corpo.",
     "expertise": " Nosso cuidado.",
     "confianca": "Seu bem-estar.",
-    "nossa_clinica": "Conheça o espaço" 
+    "nossa_clinica": "Conheça os tratamentos" 
   },
   "buttons": {
     "submit": "Enviar",
@@ -102,12 +99,7 @@
       "description": "Exercícios personalizados para fortalecer o corpo, melhorar a mobilidade, a postura e o equilíbrio, promovendo mais disposição e qualidade de vida."
     },
     "featured": "Tratamento em destaque",
-    "featrured_description": "Uma abordagem terapêutica com toque profundo e avaliação individualizada da postura e do movimento, voltada ao alívio das dores, recuperação de tensões e à melhora da mobilidade.",
-    "benefits": {
-      "b1": "Alívio de dores e tensões.",
-      "b2": "Mais liberdade de movimento.",
-      "b3": "Avaliação individualizada."
-    }
+    "featrured_description": "Uma abordagem terapêutica com toque profundo e avaliação individualizada da postura e do movimento, voltada ao alívio das dores, recuperação de tensões e à melhora da mobilidade."
   },
   "doctors": {
     "title": "Experiência que cuida de",
@@ -124,10 +116,6 @@
     "Sueli Pereira": {
       "specialty": "fisioterapiae cuidado para o seu corpo",
       "experience": "17 anos de experiência"
-    },
-    "Sueli Pereira": {
-      "specialty": "Harmonização e bioestimuladores",
-      "experience": "11 anos de experiência"
     }
   },
   
@@ -178,8 +166,7 @@
   "social_proof": {
     "patients": "Pacientes atendidos",
     "years": "De experiência",
-    "reviews": "avaliação de estrelas no google",
-    "specialists": ""
+    "reviews": "avaliação no google"
   },
   "booking": {
     "title": "Contato",
@@ -216,7 +203,7 @@
   "footer": {
     "title": "Estética avançada, tecnologia e cuidado especializado para resultados naturais e seguros.",
     "navegação": "Navegação",
-    "direitos": "Todos os direitos reservados. CNPJ: 00.000.000/0000-00",
+    "direitos": "Todos os direitos reservados",
     "política_privacidade": "Política de Privacidade",
     "termos_uso": "Termos de Uso"
   }

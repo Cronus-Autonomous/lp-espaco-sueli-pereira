@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
           <div>
             <a href="#inicio" className="font-serif text-2xl text-[#FFFDFC]">
               {clinic.name}
-              <span className="text-[#B08A45]">.</span>
+              <span className="text-[#c99f96]">.</span>
             </a>
             <p className="mt-4 text-sm text-[#F3E6DF]/70 font-sans leading-relaxed max-w-xs">
                   {t("footer.title")}
@@ -26,12 +26,6 @@ export const Footer: React.FC = () => {
             <div className="mt-6 flex gap-3">
               <a href={clinic.social.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full border border-[#642C4B] flex items-center justify-center hover:bg-[#642C4B] transition-colors">
                 <Instagram className="w-4 h-4" strokeWidth={1.5} />
-              </a>
-              <a href={clinic.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 rounded-full border border-[#642C4B] flex items-center justify-center hover:bg-[#642C4B] transition-colors">
-                <Facebook className="w-4 h-4" strokeWidth={1.5} />
-              </a>
-              <a href={clinic.social.tiktok} target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="w-9 h-9 rounded-full border border-[#642C4B] flex items-center justify-center hover:bg-[#642C4B] transition-colors">
-                <TikTokIcon className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -72,9 +66,6 @@ export const Footer: React.FC = () => {
             </h3>
             <ul className="space-y-2.5 text-sm text-[#F3E6DF]/75 font-sans">
               <li>{clinic.address}</li>
-              <li>{clinic.phone}</li>
-              <li>{clinic.whatsappDisplay}</li>
-              <li>{clinic.email}</li>
             </ul>
             <a
               href={`https://wa.me/${clinic.whatsappNumber}`}
@@ -92,14 +83,6 @@ export const Footer: React.FC = () => {
           <p className="text-[12px] text-[#F3E6DF]/50 font-sans">
             © 2026 {clinic.name}. {t("footer.direitos")}
           </p>
-          <div className="flex gap-5">
-            <a href="#" className="text-[12px] text-[#F3E6DF]/50 hover:text-[#FFFDFC] transition-colors font-sans">
-              {t("footer.política_privacidade")}
-            </a>
-            <a href="#" className="text-[12px] text-[#F3E6DF]/50 hover:text-[#FFFDFC] transition-colors font-sans">
-              {t("footer.termos_uso")}
-            </a>
-          </div>
         </div>
       </div>
     </footer>

@@ -16,7 +16,7 @@ export const Location: React.FC = () => {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6 }}
         >
-          <span className="block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#B08A45] mb-4">
+          <span className="block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#c99f96] mb-4">
             {t("location.title")}
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.12] text-[#30242B]">
@@ -46,7 +46,6 @@ export const Location: React.FC = () => {
               <div>
                 <p className="text-[11px] uppercase tracking-[0.16em] text-[#8a7d83]">{t("booking.title")}</p>
                 <p className="text-sm text-[#30242B] font-sans">{clinic.phone}</p>
-                <p className="text-sm text-[#30242B] font-sans">{clinic.whatsappDisplay}</p>
               </div>
             </li>
           </ul>

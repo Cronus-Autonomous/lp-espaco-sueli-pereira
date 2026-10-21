@@ -9,7 +9,7 @@ export const clinic = {
   email: i18next.t("clinic.mail"),
   address: i18next.t("clinic.address"),
   addressShort: i18next.t("clinic.addressShort"),
-
+  logo: "https://res.cloudinary.com/xiupvhfs/image/upload/v1792596614/Design_sem_nome__1_-removebg-preview.png",
   hours: [
     {
       day: i18next.t("clinic.hours.weekdays"),
@@ -36,15 +36,13 @@ export const clinic = {
   social: {
     instagram:
       "https://www.instagram.com/fisiosuelipereira?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
-    facebook: "https://facebook.com",
-    tiktok: "https://tiktok.com",
     google: "https://google.com",
   },
 
   googleRating: {
-    score: 4.9,
+    score: 5.0,
     count: 218,
-    url: "https://google.com",
+    url: "https://www.google.com/maps/place/Espa%C3%A7o+Sueli+Pereira,+Fisioterapia+manual,+massoterapia+e+est%C3%A9tica+integrativa/@-23.324513,-51.168763,17z/data=!4m8!3m7!1s0x94eb43b442274551:0xc4269f9ed1b06cae!8m2!3d-23.324513!4d-51.168763!9m1!1b1!16s%2Fg%2F11kq7tbsn8?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D",
   },
 };
 
@@ -171,7 +169,7 @@ export const treatments: Treatment[] = [
     description:
       "Limpeza profunda para remover impurezas, desobstruir os poros e melhorar a aparência da pele.",
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Limpeza_de_pele2.jpg",
   },
   {
     id: "Microagulhamento facial",
@@ -180,7 +178,7 @@ export const treatments: Treatment[] = [
     description:
       "Procedimento estético que estimula a renovação da pele e auxilia na melhora da textura e aparência.",
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792599198/6f4d7673bf32d264d6f185121de9b0aa.jpg",
   },
   {
     id: "Peeling facial",
@@ -189,7 +187,7 @@ export const treatments: Treatment[] = [
     description:
       "Tratamento que promove a renovação da pele, contribuindo para uma textura mais uniforme.",
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792597944/Peeling_facial.jpg",
   },
   {
     id: "Massagem Detox facial",
@@ -198,7 +196,7 @@ export const treatments: Treatment[] = [
     description:
       "Massagem facial voltada ao relaxamento e à melhora da aparência da pele.",
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792598003/Massagem_Detox_facial.jpg",
   },
   {
     id: "Pós-Operatório de cirurgia plástica",
@@ -207,7 +205,7 @@ export const treatments: Treatment[] = [
     description:
       "Acompanhamento fisioterapêutico individualizado para auxiliar na recuperação após cirurgia plástica.",
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Massagem_Detox_corporal.jpg",
   },
   {
     id: "Drenagem Linfática",
@@ -216,7 +214,7 @@ export const treatments: Treatment[] = [
     description:
       "Técnica manual que auxilia o fluxo linfático e pode contribuir para a redução de inchaços, conforme indicação profissional.",
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792598116/Drenagem_linf%C3%A1tica.jpg",
   },
   {
     id: "Massagem Detox Corporal",
@@ -225,7 +223,7 @@ export const treatments: Treatment[] = [
     description:
       "Massagem corporal voltada ao relaxamento e ao bem-estar.",
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Massagem_Detox_corporal.jpg",
   },
   {
     id: "Pilates",
@@ -234,7 +232,7 @@ export const treatments: Treatment[] = [
     description:
       "Prática de exercícios que trabalha força, flexibilidade, equilíbrio e consciência corporal, com orientação profissional.",
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792598211/Pilates.jpg",
   },
 ];
 
@@ -256,7 +254,7 @@ export const doctors: Doctor[] = [
     specialty: i18next.t("Fisioterapia e cuidado para o seu corpo"),
     experience: i18next.t("17 anos de experiência"),
     image:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792599369/WhatsApp_Image_2026-10-12_at_20.45.14.jpg",
   },
 ];
 
@@ -296,7 +294,7 @@ export const results: ResultPair[] = [
     description: resultsValues.r1.description,
     timeframe: resultsValues.r1.timeframe,
     after:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Microagulhamento_f%C3%A1cil.jpg",
   },
   {
     id: "r2",
@@ -304,7 +302,7 @@ export const results: ResultPair[] = [
     description: resultsValues.r2.description,
     timeframe: resultsValues.r2.timeframe,
     after:
-      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg",
+      "https://res.cloudinary.com/xiupvhfs/image/upload/v1792599123/Limpeza_de_pele.jpg",
   },
 ];
 
@@ -341,26 +339,26 @@ export const testimonials: TestimonialData = {
   reviews: [
     {
       id: "t1",
-      author: "Carla M.",
+      author: "Célia Regina Vitaliano",
       rating: 5,
-      text: i18next.t("testimonials.t1.text"),
-      date: i18next.t("testimonials.t1.date"),
+      text: "Minha experiência sempre foi ótima, a massagem de drenagem, dá  exelente resultado, as vezes  perco até  400 gramas após  a massagem. A massagem para dores também é  ótima.",
+      date: "Agosto, 2026",
       verified: true,
     },
     {
       id: "t2",
-      author: "Renata S.",
+      author: "Eromi Hummel",
       rating: 5,
-      text: i18next.t("testimonials.t2.text"),
-      date: i18next.t("testimonials.t2.date"),
+      text: "Simplesmente maravilhosa, resultados visível, super recomendo",
+      date: "Agosto, 2026",
       verified: true,
     },
     {
       id: "t3",
-      author: "Beatriz L.",
+      author: "Patricia Neveslkź",
       rating: 5,
-      text: i18next.t("testimonials.t3.text"),
-      date: i18next.t("testimonials.t3.date"),
+      text: "tive muitas dores lombar e Sueli com suas mãos abençoada conseguir eliminar toda ela tenho me mas.contiante pois além de tirar mimha dor ela faz uma drenagem como ninguém super recomendo",
+      date: "Julho, 2026",
       verified: true,
     },
   ],
@@ -369,7 +367,7 @@ export const testimonials: TestimonialData = {
 export const heroImage = 'https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg';
 
 export const aboutImage =
-  "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg";
+  "https://res.cloudinary.com/xiupvhfs/image/upload/v1792595689/espaco-3.jpg";
 
 export const featuredImage =
-  "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg";
+  "https://res.cloudinary.com/xiupvhfs/image/upload/v1792096710/Libera%C3%A7%C3%A3o_miofascial_restaurativa.jpg";

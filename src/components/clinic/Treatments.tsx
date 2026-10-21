@@ -41,7 +41,7 @@ export const Treatments: React.FC = () => {
                 />
               </div>
               <div className="flex flex-col flex-1 p-6">
-                <span className="text-[10px] font-sans font-semibold uppercase tracking-[0.22em] text-[#B08A45] mb-2">
+                <span className="text-[10px] font-sans font-semibold uppercase tracking-[0.22em] text-[#c99f96] mb-2">
                   {tt.category}
                 </span>
                 <h3 className="font-serif text-xl text-[#30242B] leading-snug">
@@ -51,12 +51,12 @@ export const Treatments: React.FC = () => {
                   {tt.description}
                 </p>
                 <a
-                  href={whatsappLink(`Olá! Gostaria de saber mais sobre ${tt.name}.`)}
+                  href={whatsappLink(`Olá! Vim pelo site e gostaria de saber mais sobre ${tt.name}.`)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-5 inline-flex items-center gap-2 text-[13px] font-sans font-medium text-[#642C4B] group-hover:gap-3 transition-all duration-300"
                 >
-                  {t("buttons.treatments")}
+                  {t("buttons.schedule")}
                   <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
               </div>

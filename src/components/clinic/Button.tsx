@@ -14,13 +14,13 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const base =
-  "inline-flex items-center justify-center gap-2 font-sans font-medium tracking-wide rounded-full transition-all duration-300 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#B08A45] disabled:opacity-50 disabled:pointer-events-none";
+  "inline-flex items-center justify-center gap-2 font-sans font-medium tracking-wide rounded-full transition-all duration-300 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#c99f96] disabled:opacity-50 disabled:pointer-events-none";
 
 const variants: Record<Variant, string> = {
   primary:
     "bg-[#642C4B] text-[#FFFDFC] hover:bg-[#4A1F36] hover:shadow-[0_12px_30px_-12px_rgba(100,44,75,0.6)]",
   secondary:
-    "bg-[#B08A45] text-white hover:bg-[#9a7838] hover:shadow-[0_12px_30px_-12px_rgba(176,138,69,0.55)]",
+    "bg-[#c99f96] text-white hover:bg-[#9a7838] hover:shadow-[0_12px_30px_-12px_rgba(176,138,69,0.55)]",
   outline:
     "border border-[#E0D4C8] text-[#30242B] hover:border-[#642C4B] hover:text-[#642C4B] bg-transparent",
   ghost: "text-[#30242B] hover:text-[#642C4B] bg-transparent",

@@ -26,7 +26,7 @@ export const TrustBar: React.FC = () => {
               transition={{ duration: 0.5, delay: i * 0.06 }}
               className="flex items-center gap-3"
             >
-              <it.icon className="w-5 h-5 text-[#B08A45] shrink-0" strokeWidth={1.4} />
+              <it.icon className="w-5 h-5 text-[#c99f96] shrink-0" strokeWidth={1.4} />
               <span className="text-[13px] font-sans font-medium text-[#30242B] leading-tight">
                 {it.label}
               </span>

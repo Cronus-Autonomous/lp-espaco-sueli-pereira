@@ -19,7 +19,7 @@ const Stars: React.FC<{ rating: number }> = ({ rating }) => (
     {Array.from({ length: 5 }).map((_, i) => (
       <Star
         key={i}
-        className={`w-4 h-4 ${i < rating ? "text-[#B08A45] fill-[#B08A45]" : "text-[#E0D4C8]"}`}
+        className={`w-4 h-4 ${i < rating ? "text-[#c99f96] fill-[#c99f96]" : "text-[#E0D4C8]"}`}
       />
     ))}
   </div>
@@ -33,7 +33,7 @@ export const Testimonials: React.FC = () => {
       <div className="mx-auto max-w-[1280px] px-5 md:px-8">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
           <div>
-            <span className="block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#B08A45] mb-4">
+            <span className="block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#c99f96] mb-4">
               {t("testimonials.title")}
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.12] text-[#30242B]">

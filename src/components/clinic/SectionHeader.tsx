@@ -30,7 +30,7 @@ export const SectionHeader: React.FC<SectionHeaderProps> = ({
       {eyebrow && (
         <span
           className={`block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] mb-4 ${
-            light ? "text-[#D9C9A8]" : "text-[#B08A45]"
+            light ? "text-[#D9C9A8]" : "text-[#c99f96]"
           }`}
         >
           {eyebrow}

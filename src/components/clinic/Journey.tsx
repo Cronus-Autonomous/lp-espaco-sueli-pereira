@@ -24,7 +24,7 @@ export const Journey: React.FC = () => {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto"
         >
-          <span className="block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#B08A45] mb-4">
+          <span className="block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#c99f96] mb-4">
             {t("journey.title")}
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.12] text-[#30242B]">
@@ -48,7 +48,7 @@ export const Journey: React.FC = () => {
                 <div className="relative z-10 w-14 h-14 rounded-full bg-[#FFFDFC] border border-[#E0D4C8] flex items-center justify-center mb-5">
                   <s.icon className="w-5 h-5 text-[#642C4B]" strokeWidth={1.4} />
                 </div>
-                <span className="font-serif text-sm text-[#B08A45] mb-1">{s.n}</span>
+                <span className="font-serif text-sm text-[#c99f96] mb-1">{s.n}</span>
                 <h3 className="font-serif text-lg text-[#30242B]">{s.title}</h3>
                 <p className="mt-2 text-[13px] text-[#5c4f54] font-sans leading-relaxed max-w-[200px]">
                   {s.text}

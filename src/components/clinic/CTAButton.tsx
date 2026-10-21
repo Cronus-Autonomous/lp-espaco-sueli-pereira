@@ -40,14 +40,14 @@ export const CTASection: React.FC = () => {
               href={whatsappLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#B08A45] hover:bg-[#9a7838] text-white text-sm font-medium rounded-full px-8 py-4 transition-all duration-300 hover:shadow-[0_14px_32px_-12px_rgba(176,138,69,0.6)]"
+              className="inline-flex items-center justify-center gap-2 bg-[#c99f96] hover:bg-[#9a7838] text-white text-sm font-medium rounded-full px-8 py-4 transition-all duration-300 hover:shadow-[0_14px_32px_-12px_rgba(176,138,69,0.6)]"
             >
               <WhatsAppIcon className="w-4 h-4" />
               {t("buttons.schedule")}
             </a>
           </div>
           <p className="mt-5 text-[13px] text-[#F3E6DF]/60 font-sans">
-            {t("clinic.tagline_2")}
+            Estética Avançada
           </p>
         </motion.div>
       </div>

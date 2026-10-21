@@ -37,12 +37,21 @@ export const Header: React.FC = () => {
       <div className="mx-auto max-w-[1280px] px-5 md:px-8 flex items-center justify-between">
         <a
           href="#inicio"
-          className={`font-serif text-2xl tracking-tight transition-colors duration-300 ${
+          className={`flex flex-row items-center gap-3 font-serif text-2xl tracking-tight transition-colors duration-300 ${
             scrolled ? "text-[#30242B]" : "text-[#30242B]"
           }`}
         >
-          {clinic.name}
-          <span className="text-[#B08A45]">.</span>
+          {clinic.logo && (
+            <img
+              src={clinic.logo}
+              alt={clinic.name}
+              className="h-8 w-auto object-contain shrink-0"
+            />
+          )}
+          <span className="whitespace-nowrap">
+            {clinic.name}
+            <span className="text-[#c99f96]">.</span>
+          </span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-9">
@@ -87,10 +96,19 @@ export const Header: React.FC = () => {
             className="lg:hidden fixed inset-0 top-0 bg-[#FAF5F0] z-50 flex flex-col"
           >
             <div className="flex items-center justify-between px-5 py-5 border-b border-[#E8DED4]">
-              <span className="font-serif text-2xl text-[#30242B]">
-                {clinic.name}
-                <span className="text-[#B08A45]">.</span>
-              </span>
+              <div className="flex flex-row items-center gap-3 font-serif text-2xl text-[#30242B]">
+                {clinic.logo && (
+                  <img
+                    src={clinic.logo}
+                    alt={clinic.name}
+                    className="h-20 w-auto object-contain shrink-0"
+                  />
+                )}
+                <span className="whitespace-nowrap">
+                  {clinic.name}
+                  <span className="text-[#c99f96]">.</span>
+                </span>
+              </div>
               <button
                 onClick={() => setOpen(false)}
                 aria-label="Fechar menu"

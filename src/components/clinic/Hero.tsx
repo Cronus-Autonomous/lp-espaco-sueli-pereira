@@ -11,30 +11,15 @@ export const Hero: React.FC = () => {
   const reduce = useReducedMotion();
 
   const trust = [
-    t("clinic.tagline_2"),
-    t("hero.profissionais"),
-    t("hero.tecnologia"),
+    "Estética Avançada",
+    "Profissional especializada"
   ];
 
   return (
     <section
       id="inicio"
-      className="relative w-full min-h-[calc(100vh-80px)] py-10 md:py-12 overflow-hidden bg-[#FAF5F0]"
+      className="relative w-full min-h-[calc(100vh-80px)] py-20 md:py-32 overflow-hidden bg-[#FAF5F0]"
     >
-      {/* Curva decorativa */}
-      <svg
-        className="absolute -right-20 top-32 w-[420px] h-[420px] text-[#E8DED4] hidden md:block pointer-events-none"
-        viewBox="0 0 200 200"
-        fill="none"
-        aria-hidden="true"
-      >
-        <path
-          d="M40 160 C 40 60, 140 60, 160 120"
-          stroke="currentColor"
-          strokeWidth="0.6"
-          className="opacity-60"
-        />
-      </svg>
 
       {/* Container com largura total */}
       <div className="relative z-10 w-full max-w-none mx-0 px-5 sm:px-8 lg:px-[7%] xl:px-[10%] grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
@@ -49,8 +34,8 @@ export const Hero: React.FC = () => {
           }}
           className="w-full min-w-0"
         >
-          <span className="inline-block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#B08A45] mb-5">
-            {t("clinic.tagline")} • {t("clinic.tagline_2")}
+          <span className="inline-block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#c99f96] mb-5">
+            Liberação Miofascial • Estética Avançada
           </span>
 
           <h1 className="font-serif text-[2.3rem] sm:text-5xl lg:text-[3.4rem] xl:text-[3.8rem] leading-[1.05] tracking-tight text-[#30242B]">
@@ -92,7 +77,7 @@ export const Hero: React.FC = () => {
                 className="flex items-center gap-2 text-[13px] text-[#5c4f54] font-sans"
               >
                 <Check
-                  className="w-4 h-4 shrink-0 text-[#B08A45]"
+                  className="w-4 h-4 shrink-0 text-[#c99f96]"
                   strokeWidth={2.2}
                 />
                 {item}
@@ -112,20 +97,13 @@ export const Hero: React.FC = () => {
           }}
           className="relative w-full min-w-0 flex justify-center items-center"
         >
-          <div className="relative w-full max-w-[620px] aspect-[4/5] rounded-[2rem] overflow-hidden bg-[#F3E6DF]">
+          <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-[2rem] overflow-hidden bg-[#F3E6DF]">
             <img
               src={heroImage}
               alt="Mulher elegante com pele natural e radiante em ambiente premium"
-              className="absolute inset-0 w-full h-full object-cover object-center"
+              className="absolute inset-0 w-full h-full object-cover object-top"
               loading="eager"
             />
-          </div>
-
-          {/* Cartão decorativo inferior */}
-          <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 hidden md:block bg-[#FFFDFC] rounded-2xl shadow-[0_20px_50px_-20px_rgba(48,36,43,0.25)] px-6 py-3 border border-[#E8DED4]">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-[#5c4f54] mt-1">
-              {t("testimonials.source")}
-            </p>
           </div>
         </motion.div>
       </div>

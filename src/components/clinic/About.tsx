@@ -54,7 +54,7 @@ export const About: React.FC = () => {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
           className="order-1 lg:order-2"
         >
-          <span className="block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#B08A45] mb-4">
+          <span className="block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#c99f96] mb-4">
             {t("sobre.title")}
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.12] text-[#30242B]">

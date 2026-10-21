@@ -70,7 +70,7 @@ export const Experts: React.FC = () => {
                 {d.specialty}
               </p>
 
-              <p className="mt-1 text-[12px] uppercase tracking-[0.14em] text-[#B08A45]">
+              <p className="mt-1 text-[12px] uppercase tracking-[0.14em] text-[#c99f96]">
                 {d.experience}
               </p>
             </motion.article>
