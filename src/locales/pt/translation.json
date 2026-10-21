@@ -69,24 +69,40 @@
       "technology": "Tecnologia",
       "body": "Corpo"
     },
-    "rejuvenescimento": {
+    "Limpeza de pele": {
       "name": "Liberação Miofascial Restaurativa:",
-      "description": "Uma abordagem terapêutica com toque profundo e avaliação individualizada da postura e do movimento, voltada ao alívio das dores, recuperação de tensões e à melhora da mobilidade."
+      "description": "Cuidado facial para renovar impurezas, desobstruir os poros e devolver mais viço e luminosidade à pele, com menos dor."
     },
-    "harmonizacao": {
+    "Microagulhamento facial": {
       "name": "Harmonização Facial",
-      "description": "Protocolos delicados para equilibrar traços e valorizar a sua beleza com resultado sutil e elegante."
+      "description": "Tratamento que estimula a renovação da pele e a produção de colágeno, auxiliando na melhora da textura, de cicatrizes de acne e linhas finas."
     },
-    "laser": {
+    "Peeling facial": {
       "name": "Laser & Fototerapia",
-      "description": "Tecnologia de precisão para tratar manchas, textura e vascular com segurança e conforto."
+      "description": "Tratamento que promove renovação da pele, cicatriz de acne, suaviza a textura e realça uma aparência mais uniforme, luminosa e saudável."
     },
-    "corporal": {
+    "Massagem Detox facial": {
       "name": "Tratamentos Corporais",
-      "description": "Cuidado completo para firmeza, contorno e bem-estar do corpo com protocolos personalizados."
+      "description": "Um ritual de autocuidado que combina relaxamento e estímulo facial para suavizar o aspecto de cansaço e realçar a luminosidade natural da pele."
+    },
+    "Pós-Operatório de cirurgia plástica": {
+      "name": "Tratamentos Corporais",
+      "description": "Um acompanhamento fisioterapêutico individualizado para auxiliar na redução do inchaço, no alívio de desconforto e na recuperação da mobilidade dos tecidos em cada fase do pós-operatório e nas orientações do seu cirurgião."
+    },
+    "Drenagem Linfática": {
+      "name": "Tratamentos Corporais",
+      "description": "Uma técnica manual suave e personalizada que estimula o fluxo linfático, auxilia na redução do inchaço e proporciona mais leveza, conforto e bem-estar ao corpo."
+    },
+    "Massagem Detox Corporal": {
+      "name": "Tratamentos Corporais",
+      "description": "Cuidado corporal personalizado para reduzir medidas e sensação de inchaço e proporciona mais leveza e bem-estar."
+    },
+    "Pilates": {
+      "name": "Tratamentos Corporais",
+      "description": "Exercícios personalizados para fortalecer o corpo, melhorar a mobilidade, a postura e o equilíbrio, promovendo mais disposição e qualidade de vida."
     },
     "featured": "Tratamento em destaque",
-    "featrured_description": "Uma abordagem avançada para melhorar a aparência da pele com naturalidade e precisão. Combinamos tecnologia de última geração e protocolos personalizados para suavizar sinais do tempo, devolver firmeza e luminosidade — respeitando a sua expressão.",
+    "featrured_description": "Uma abordagem terapêutica com toque profundo e avaliação individualizada da postura e do movimento, voltada ao alívio das dores, recuperação de tensões e à melhora da mobilidade.",
     "benefits": {
       "b1": "Alívio de dores e tensões.",
       "b2": "Mais liberdade de movimento.",
@@ -101,15 +117,15 @@
       "dermatologist": "Fisioterapeuta",
       "specialist": "Especialista em Estética"
     },
-    "draAishwarya": {
+    "Sueli pereira": {
+      "specialty": "fisioterapia e cuidado para o seu corpo",
+      "experience": "17 anos de experiência"
+    },
+    "Sueli Pereira": {
       "specialty": "fisioterapiae cuidado para o seu corpo",
       "experience": "17 anos de experiência"
     },
-    "draMeera": {
-      "specialty": "Rejuvenescimento facial",
-      "experience": "9 anos de experiência"
-    },
-    "draRhea": {
+    "Sueli Pereira": {
       "specialty": "Harmonização e bioestimuladores",
       "experience": "11 anos de experiência"
     }

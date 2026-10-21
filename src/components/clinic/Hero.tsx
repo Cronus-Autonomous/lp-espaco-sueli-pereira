@@ -9,19 +9,21 @@ import { useTranslation } from "react-i18next";
 export const Hero: React.FC = () => {
   const { t } = useTranslation();
   const reduce = useReducedMotion();
+
   const trust = [
     t("clinic.tagline_2"),
     t("hero.profissionais"),
     t("hero.tecnologia"),
   ];
+
   return (
     <section
       id="inicio"
-      className="relative pt-32 md:pt-40 pb-16 md:pb-24 overflow-hidden bg-[#FAF5F0]"
+      className="relative w-full min-h-[calc(100vh-80px)] py-10 md:py-12 overflow-hidden bg-[#FAF5F0]"
     >
-      {/* subtle decorative curve */}
+      {/* Curva decorativa */}
       <svg
-        className="absolute -right-20 top-40 w-[420px] h-[420px] text-[#E8DED4] hidden md:block"
+        className="absolute -right-20 top-32 w-[420px] h-[420px] text-[#E8DED4] hidden md:block pointer-events-none"
         viewBox="0 0 200 200"
         fill="none"
         aria-hidden="true"
@@ -34,27 +36,36 @@ export const Hero: React.FC = () => {
         />
       </svg>
 
-      <div className="mx-auto max-w-[1280px] px-5 md:px-8 grid lg:grid-cols-[45%_55%] gap-10 lg:gap-16 items-center">
+      {/* Container com largura total */}
+      <div className="relative z-10 w-full max-w-none mx-0 px-5 sm:px-8 lg:px-[7%] xl:px-[10%] grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+
+        {/* Conteúdo textual */}
         <motion.div
           initial={reduce ? false : { opacity: 0, y: 28 }}
           animate={reduce ? undefined : { opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+          transition={{
+            duration: 0.7,
+            ease: [0.22, 1, 0.36, 1],
+          }}
+          className="w-full min-w-0"
         >
-          <span className="inline-block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#B08A45] mb-6">
+          <span className="inline-block text-[11px] font-sans font-semibold uppercase tracking-[0.28em] text-[#B08A45] mb-5">
             {t("clinic.tagline")} • {t("clinic.tagline_2")}
           </span>
-          <h1 className="font-serif text-[2.5rem] sm:text-5xl lg:text-[3.6rem] leading-[1.05] tracking-tight text-[#30242B]">
+
+          <h1 className="font-serif text-[2.3rem] sm:text-5xl lg:text-[3.4rem] xl:text-[3.8rem] leading-[1.05] tracking-tight text-[#30242B]">
             {t("hero.title")}
             <br />
             <span className="italic text-[#642C4B]">
               {t("hero.title2")}
             </span>
           </h1>
-          <p className="mt-6 max-w-md text-base md:text-lg leading-relaxed text-[#5c4f54] font-sans">
+
+          <p className="mt-5 max-w-lg text-base md:text-lg leading-relaxed text-[#5c4f54] font-sans">
             {t("hero.subtitle")}
           </p>
 
-          <div className="mt-8 flex flex-col sm:flex-row gap-3">
+          <div className="mt-7 flex flex-col sm:flex-row gap-3">
             <a
               href={whatsappLink()}
               target="_blank"
@@ -64,6 +75,7 @@ export const Hero: React.FC = () => {
               <WhatsAppIcon className="w-4 h-4" />
               {t("buttons.schedule")}
             </a>
+
             <a
               href="#tratamentos"
               className="inline-flex items-center justify-center gap-2 border border-[#E0D4C8] hover:border-[#642C4B] text-[#30242B] hover:text-[#642C4B] text-sm font-medium rounded-full px-7 py-4 transition-all duration-300"
@@ -73,34 +85,44 @@ export const Hero: React.FC = () => {
             </a>
           </div>
 
-          <ul className="mt-9 flex flex-col sm:flex-row gap-x-6 gap-y-2">
-            {trust.map((t) => (
+          <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-3">
+            {trust.map((item, index) => (
               <li
-                key={t}
+                key={`${item}-${index}`}
                 className="flex items-center gap-2 text-[13px] text-[#5c4f54] font-sans"
               >
-                <Check className="w-4 h-4 text-[#B08A45]" strokeWidth={2.2} />
-                {t}
+                <Check
+                  className="w-4 h-4 shrink-0 text-[#B08A45]"
+                  strokeWidth={2.2}
+                />
+                {item}
               </li>
             ))}
           </ul>
         </motion.div>
 
+        {/* Imagem ampliada */}
         <motion.div
-          initial={reduce ? false : { opacity: 0, scale: 1.04 }}
-          animate={reduce ? undefined : { opacity: 1, scale: 1 }}
-          transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
-          className="relative"
+          initial={reduce ? false : { opacity: 0, y: 15 }}
+          animate={reduce ? undefined : { opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.9,
+            ease: [0.22, 1, 0.36, 1],
+            delay: 0.1,
+          }}
+          className="relative w-full min-w-0 flex justify-center items-center"
         >
-          <div className="relative aspect-[4/5] sm:aspect-[4/3] lg:aspect-[16/13] rounded-[2rem] overflow-hidden bg-[#F3E6DF]">
+          <div className="relative w-full max-w-[620px] aspect-[4/5] rounded-[2rem] overflow-hidden bg-[#F3E6DF]">
             <img
               src={heroImage}
               alt="Mulher elegante com pele natural e radiante em ambiente premium"
-              className="w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover object-center"
               loading="eager"
             />
           </div>
-          <div className="absolute -bottom-5 -left-5 hidden md:block bg-[#FFFDFC] rounded-2xl shadow-[0_20px_50px_-20px_rgba(48,36,43,0.25)] px-6 py-4 border border-[#E8DED4]">
+
+          {/* Cartão decorativo inferior */}
+          <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 hidden md:block bg-[#FFFDFC] rounded-2xl shadow-[0_20px_50px_-20px_rgba(48,36,43,0.25)] px-6 py-3 border border-[#E8DED4]">
             <p className="text-[11px] uppercase tracking-[0.18em] text-[#5c4f54] mt-1">
               {t("testimonials.source")}
             </p>
