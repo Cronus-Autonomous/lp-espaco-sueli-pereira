@@ -9,7 +9,7 @@ export const clinic = {
   email: i18next.t("clinic.mail"),
   address: i18next.t("clinic.address"),
   addressShort: i18next.t("clinic.addressShort"),
-  logo: "https://res.cloudinary.com/xiupvhfs/image/upload/v1792596614/Design_sem_nome__1_-removebg-preview.png",
+  logo: "https://res.cloudinary.com/xiupvhfs/image/upload/v1794687879/onli_logo-removebg-preview.png",
   hours: [
     {
       day: i18next.t("clinic.hours.weekdays"),
