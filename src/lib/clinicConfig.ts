@@ -51,6 +51,7 @@ export const whatsappLink = (message?: string) =>
     message ?? i18next.t("clinic.whatsappDefaultMessage")
   )}`;
 
+
 export const navLinks = [
   {
     label: i18next.t("menu.home"),
@@ -347,7 +348,7 @@ export const testimonials: TestimonialData = {
     },
     {
       id: "t2",
-      author: "Eromi Hummel",
+      author: "Paola alleyxo",
       rating: 5,
       text: "Simplesmente maravilhosa, resultados visível, super recomendo",
       date: "Agosto, 2026",
