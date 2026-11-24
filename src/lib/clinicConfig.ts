@@ -365,7 +365,7 @@ export const testimonials: TestimonialData = {
   ],
 };
 
-export const heroImage = 'https://res.cloudinary.com/xiupvhfs/image/upload/v1792096918/WhatsApp_Image_2026-10-12_at_17.58.34.jpg';
+export const heroImage = 'https://res.cloudinary.com/xiupvhfs/image/upload/v1795538063/WhatsApp_Image_2026-10-28_at_17.26.34.jpg';
 
 export const aboutImage =
   "https://res.cloudinary.com/xiupvhfs/image/upload/v1792595689/espaco-3.jpg";
